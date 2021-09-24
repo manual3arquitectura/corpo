@@ -181,7 +181,12 @@ header .navbar-collapse {
   }
 }
 .modal-dialog {
-  max-width: 100%;
+  max-width: 90%;
+}
+@media (max-width: 768px) {
+  .modal-dialog {
+    max-width: 100%;
+  }
 }
 
 #btn-back-to-top {
