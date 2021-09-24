@@ -5,6 +5,12 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: NexaBold;
+  src: url("../../assets/font/NexaBold.otf");
+  font-weight: normal;
+  font-style: normal;
+}
 /* use */
 body {
   font-family: NexaRegular, Tahoma, serif;
@@ -123,6 +129,10 @@ header .navbar-collapse {
 .team .email {
   height: 20px;
   display: block;
+}
+.team strong {
+  font-family: NexaBold;
+  font-size: 18px;
 }
 @media (max-width: 768px) {
   .team {
